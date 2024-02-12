@@ -1,15 +1,10 @@
 body {
 	max-width: 1920px;
 	margin: auto;
-}
-.w-100, .d-block {
-	width: 100%;
-	height: auto;
-}
-* {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -89,15 +84,11 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-#about-me p {
+.about-me__paragraph {
 	width: 80%;
 	font-size: 14px;
 }
-/*
-#gallery {
-	min-height: 100vh;
-}
-*/
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -124,6 +115,7 @@ body {
 	padding-bottom: 100%;
 
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -131,6 +123,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -148,14 +141,13 @@ body {
 	margin: auto;
 	padding-block: 3em;
 }
+
 .quote__text {
-	font-family: 'Spectral';
-	font-style: italic;
 	font-weight: 300;
 
 }
-.quote__author {
-	font-family: 'Spectral';
+
+.quote__author {	
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -165,6 +157,7 @@ body {
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -206,6 +199,7 @@ body {
 #contact .container {
 	display: flex;
 }
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -216,10 +210,12 @@ body {
 	right: 0;
 	z-index: -1;
 }
+
 .form-container {
 	flex : 2;
 
 }
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -244,6 +240,7 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
@@ -260,7 +257,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	.about-me__introduction, .about-me__paragraph {
 		width: 100%;
 	}
 }
@@ -331,7 +328,7 @@ input[type="submit"] {
 	}
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0;
 	}
 	.top-header .nav li {
 		flex: 1;
