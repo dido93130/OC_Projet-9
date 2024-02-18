@@ -32,14 +32,14 @@ body {
 }
 
 .top-header .name {
-    font-size: 30px;
+    font-size: 26px;
 	font-weight: 400;
 }
 
 .nav ul {
     display: flex;
-    list-style-type: none;
-    font-size: 18px;	
+    list-style-type: none;    
+    font-size: 15px;	
     margin-bottom: 0;
 	font-family: 'Arial';
 }
@@ -101,7 +101,7 @@ body {
 .about-me__title {
     margin-top: 1em;
     margin-bottom: 60px;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -122,7 +122,7 @@ body {
 .title {
     text-align: center;
     padding-block: 2em;
-	font-size: 34px;
+	font-size: 28px;
 	font-weight: 400;
 }
 
@@ -142,7 +142,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     color: black;
-	font-size: 18px;
+	font-size: 16px;
     background-color: #BEB45A;
     border-radius: 0;
 }
@@ -453,7 +453,7 @@ input[type="submit"] {
 		font-size: 28px;		
 	}
 
-   .quote__author__service {
+    .quote__author__service {
 	    font-size: 22px;
     }
 
@@ -464,7 +464,7 @@ input[type="submit"] {
     }
 
     .title {
-		font-size: 25px;
+		font-size: 23px;
 	}
 
     .picture {
